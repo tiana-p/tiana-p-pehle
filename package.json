@@ -1,0 +1,19 @@
+{
+  "name": "tiana-p.github.io",
+  "version": "1.0.0",
+  "description": "web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiana-p/tiana-p.github.io.git"
+  },
+  "author": "Tiana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiana-p/tiana-p.github.io/issues"
+  },
+  "homepage": "https://github.com/tiana-p/tiana-p.github.io#readme"
+}

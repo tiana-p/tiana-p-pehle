@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    WIDTH: 100%;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.menuBox > a {
+    font-size: 35px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.menuBox > a:hover {
+    text-shadow: 1px 1px #1e434c;
+}
+#wrap-left-header {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 100%;
+    background-image: url(images/subtle_carbon.png);
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    height: 100%;
+}
+#wrap-header {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#socialHeader > a > i {
+    font-size: 25px;
+}
+
+#socialHeader > a > i:hover {
+    color: #ff95f6;
+}
+#headerMiddle {
+    margin: 0 10%;
+}
+#logo{
+  height:100px;
+}
+.menuBox {
+    border: solid 1px;
+    text-align: center;
+    height: 200px;
+    display: inline-block;
+    border-radius: 29px;
+    cursor: pointer;
+    margin: 10px;
+    width: 300px;
+}
+a.menuTab {
+    margin: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a.menuTab:hover {
+  color: #ff95f6;
+    text-shadow: 1px 1px #151515;
+}
+body > div > ul > li > a {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+a{
+    color: #06a9dc;
+}
+div#wrapboxes {
+    text-align: center;
+    padding: 11% 0px;
+}
+div#aboutMe {
+background: radial-gradient(circle, rgba(252,70,107,1) 0%,  rgba(0,0,0,1) 100%);
+}
+
+div#projects {
+background: radial-gradient(circle, rgba(117,247,239,1) 0%,rgba(0,0,0,1) 100%);
+}
+
+div#contact {
+background: radial-gradient(circle, rgba(219,114,242,1) 0%, rgba(0,0,0,1) 100%);
+}
+div#aboutMe:hover {
+background: radial-gradient(circle, rgba(227,7,7) 0%,  rgba(0,0,0,1) 100%);
+}
+
+div#projects:hover {
+background: radial-gradient(circle, rgba(114,242,139) 0%,rgba(0,0,0,1) 100%);
+}
+
+div#contact:hover {
+background: radial-gradient(circle, rgba(247,117,117,1) 0%, rgba(0,0,0,1) 100%);
+}
+.menuBox > h1{
+    color:#fff;
+    margin:0 auto;
+    padding:100px;
+}
+#wrapBoxes{
+    text-align: center;
+}
+
+/*contactUS*/
+div#contactForm {
+    border: solid;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #00c7ff;
+    border-radius: 39px;
+    padding: 60px 90px;
+}
+
+#searchText {
+    color: #0b9be5;
+    font-size: 25px;
+}
+
+#home {
+    text-align: center;
+}
+
+#searchForm {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+#searchText {
+    color: #0b9be5;
+    font-size: 25px;
+}
+.collection-item {
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin: 0;
+}
+
+#movies {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+#movies > li > a > img {
+    height: 450px;
+}
+.tagline{
+    color:#fff;
+    text-align: center;
+    font-size: 40px;
+}
